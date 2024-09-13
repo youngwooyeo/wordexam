@@ -1,13 +1,129 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-family: 'Helvetica';
+  background-color: #ffffff;
+  margin: 0 auto ;
+  padding: 0;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+margin: 0 auto ;
+padding: 0;
 }
+
+
+
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #40f075;
+}
+
+.row-price {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.row-header {
+  height: 30px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom:  solid 1px #354251;
+  
+}
+.row-line{
+  display: flex;
+  justify-content: space-between;
+padding: 1px;
+}
+.col-app1 {
+  padding: 30px;
+  flex: 0.3;
+  min-width: 400px;
+  max-width: 600px;
+  background-color: #354251;  
+  padding: 10px 30px;
+}
+
+.col-app2 {
+  display: inline;
+  text-align: center;
+  padding: 10px 20px;
+  flex: 0.7;
+}
+
+
+.aside-title {
+  font-size: 1.5rem;
+  text-align: start;
+  width: 100%;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.col-1 {
+  flex: 1;
+  max-width: 500px;
+
+  background-color: #354251;
+}
+
+.col-2 {
+  flex: 2;
+
+}
+
+.block {
+  padding: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+img.small {
+  max-height: 8rem;
+}
+
+button {
+  font-size: 0.8rem;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: #f0c040;
+  width: 100%;
+  cursor: pointer;
+}
+
+dir {
+  padding: 0px;
+}
+
+button.add {
+  font-size: 0.9rem;
+  background-color: #ffffff;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+button.remove {
+  font-size: 0.9rem;
+  background-color: #ffffff;
+
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+button.badge {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  color: #ff0000;
+  font-size: 1.2rem;
+  border: none;
+}
+

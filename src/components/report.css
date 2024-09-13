@@ -1,0 +1,171 @@
+.Report {
+    background-color: rgb(255, 255, 255);
+    border: solid 0px #000000;
+}
+
+
+
+.a4sheet {
+    /* 96 PPI/DPI : 794 x 1123*/
+    width: 210mm;
+    height: 297mm;
+    background-color: #ffffff;
+    /* border: solid 1px #000000; */
+    /* width: 1188px;
+    height: 1682px;
+    background-color: rgb(255, 255, 255);
+    
+    zoom: 0.6; */
+    /* visibility: hidden; */
+}
+
+
+.a4sheet-zoom100 {
+    width: 21cm;
+    min-height: 29.7cm;
+
+    /* width: 1188px;
+    height: 1682px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #ee1010;
+    zoom: 1; */
+    /* visibility: hidden; */
+}
+
+
+.a4sheet-container {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    /* margin: 60px;
+    margin-top: 100px; */
+    /* border: dotted 2px #000000; */
+}
+
+.sheethead {
+    height: 100px;
+    border-top: solid 4px #000000;
+    border-bottom: solid 3px #000000;
+    margin-bottom: 26px;
+}
+
+.sheethead-container {
+    height: 78px;
+    padding: 8px 16px;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    margin: 2px 0px;
+}
+
+.sheethead-row {
+    font-size: 1.1rem;
+}
+
+.sheethead-flex {
+    margin-top: 22px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    line-height: 180%;
+    font-size: 1.0rem;
+}
+
+.sheethead-div-left {
+    flex: 0.7;
+    line-height: 180%;
+    padding-left: 10px;
+}
+
+.sheethead-div-right {
+    flex: 0.3;
+    line-height: 180%;
+    background-color: #ffffff;
+}
+
+
+
+
+.sheetmain {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.sheetmain-left {
+    flex: 0.45;
+}
+
+.sheetmain-middle {
+    flex: 0.1;
+}
+
+.sheetmain-right {
+    flex: 0.45;
+}
+
+
+
+.bsk-top {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #ffffff;
+
+}
+
+.bsk-main {
+    background-color: rgb(100, 5, 95);
+    border: solid 1px #ff0000;
+}
+
+hr {
+    display: block;
+    width: 150px;
+    height: 15px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+
+}
+
+
+.div-table {
+    background-color: #ffffff;
+}
+
+.div-tr {
+    display: flex;
+
+    padding: 20px 0;
+}
+.div-td {
+flex: 0.6;
+
+}
+.div-td-underline {
+flex: 0.4;
+
+    border-bottom: solid 1px #000000;
+}
+
+
+.div-table3 {
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+
+.div-td3 {
+background-color: #ffffff;
+}
+.div-td-underline3 {
+    height: 30px;
+    border-bottom: solid 1px #000000;
+}
+
+
+.xleft {
+    text-align: start;
+    background-color: #ffffff;
+}
+
+.xright {
+    width: 150px;
+    height: 20px;
+    border-bottom: solid 1px #000000;
+    background-color: #2016b6;
+}

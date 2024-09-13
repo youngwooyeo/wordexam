@@ -1,38 +1,69 @@
 .App {
-  text-align: center;
+  width: 1800px;
+  height: 900px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main {
+  background-color: #ffffff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-title {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 60px;
+  font-size: 1.5rem;
+  padding: 0px 35px;
+  text-align: start;
+}
+.main-panel {
+  height: 610px;
+  background-color: rgb(255, 255, 255);
+}
+.main-panel4 {
+  height: 676px;
+  background-color: rgb(255, 255, 255);
+}
+.Top {
+  background-color: blueviolet;
+}
+.Step01 {
+  background-color: rgb(255, 255, 255);
+  height: 840px;
 }
 
-.App-link {
-  color: #61dafb;
+.Step02 {
+  background-color: rgb(255, 255, 255);
+  height: 840px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Step03 {
+  background-color: rgb(255, 255, 255);
+  height: 840px;
+}
+
+.Step04 {
+  background-color: rgb(255, 255, 255);
+  height: 840px;
+}
+
+.Step05 {
+  background-color: rgb(255, 255, 255);
+  height: 840px;
+}
+
+
+
+
+
+
+@media print {
+  .report+.report {
+    margin-top: 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+@page {
+  size: A4;
 }

@@ -1,0 +1,52 @@
+    {
+      "lessons": [
+      {
+        "id": 1,
+        "name": "Lesson1",
+        "price": 1400,
+        "image": "/images/book01.png"
+      },
+      {
+        "id": 2,
+        "name": "Lesson2",
+        "price": 1400,
+         "image": "/images/book02.png"
+      },
+      {
+        "id": 3,
+        "name": "Lesson3",
+        "price": 1400,
+         "image": "/images/book03.png"
+      },
+      {
+        "id": 4,
+        "name": "Lesson4",
+        "price": 1400,
+         "image": "/images/book04.png"
+      },
+      {
+        "id": 5,
+        "name": "Lesson5",
+        "price": 1400,
+         "image": "/images/book05.png"
+      },
+      {
+        "id": 6,
+        "name": "Lesson6",
+        "price": 1400,
+         "image": "/images/book06.png"
+      },
+      {
+        "id": 7,
+        "name": "Lesson7",
+        "price": 1400,
+         "image": "/images/book07.png"
+      },
+      {
+        "id": 8,
+        "name": "Lesson8",
+        "price": 1400,
+         "image": "/images/book08.png"
+      }
+    ]
+  }

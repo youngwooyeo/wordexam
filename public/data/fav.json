@@ -1,0 +1,52 @@
+{
+  "favs": [
+  {
+    "id": 1,
+    "name": "워드마스터 Word Master 중등 실력",
+    "price": 1400,
+    "image": "/images/book01.png"
+  },
+  {
+    "id": 2,
+    "name": "3초 보카 VOCA 중학",
+    "price": 1400,
+     "image": "/images/book02.png"
+  },
+  {
+    "id": 3,
+    "name": "영포자 중등 보카",
+    "price": 1400,
+     "image": "/images/book03.png"
+  },
+  {
+    "id": 4,
+    "name": "보카 출생의 비밀 중학 어원편",
+    "price": 1400,
+     "image": "/images/book04.png"
+  },
+  {
+    "id": 5,
+    "name": "중학 영단어 단어가 읽기다 기본편",
+    "price": 1400,
+     "image": "/images/book05.png"
+  },
+  {
+    "id": 6,
+    "name": "뜯어먹는 중학 영단어 1800",
+    "price": 1400,
+     "image": "/images/book06.png"
+  },
+  {
+    "id": 7,
+    "name": "무작정 외우는 중학 영단어",
+    "price": 1400,
+     "image": "/images/book07.png"
+  },
+  {
+    "id": 8,
+    "name": "중학 영단어 단어가 읽기다 어원편",
+    "price": 1400,
+     "image": "/images/book08.png"
+  }
+]
+}

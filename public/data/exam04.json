@@ -1,0 +1,44 @@
+    {
+      "exams": [
+      {
+        
+      
+        "id": 5,
+        "name": "뜻 → 영단어",
+        "code": "영",
+        "ismultiple":"N",
+        "pid" : 1122334455667704,
+        "text" : "과체중의, 비만의",
+        "answer" : "overweight",
+        "passage" : "",
+        "engword" : "overweight",
+        "korword" : "과체중의, 비만의",
+        "engexpl" : "",
+        "korexpl" : "",
+        "synonym" : "",
+        "antonym" : "",
+        "sentence" : "",
+        "mp3" : "",
+        "image": "/images/book01.png"
+      },
+      {
+        "id": 6,
+        "name": "뜻 → 영단어",
+        "code": "영",
+        "ismultiple":"N",
+        "pid" : 1122334455667705,
+        "text" : "얼굴을 붉히다",
+        "answer" : "blush",
+        "passage" : "",
+        "engword" : "blush",
+        "korword" : "얼굴을 붉히다",
+        "engexpl" : "",
+        "korexpl" : "",
+        "synonym" : "",
+        "antonym" : "",
+        "sentence" : "",
+        "mp3" : "",
+        "image": "/images/book01.png"
+      }
+    ]
+  }
